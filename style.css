@@ -1,19 +1,43 @@
-body {
-  font-family: 'Cormorant', serif;
-  background-color: #F3EDE4; /* beige crème */
-  color: #0F172A; /* bleu nuit */
+/* Palette de couleurs */
+:root {
+  --bleu-brume: #A7C7E7;
+  --rose-poussiere: #D8A7B1;
+  --terracotta: #C45A3C;
+  --vert-sapin: #1B3A2F;
+  --bleu-nuit: #0F172A;
+  --creme: #F3EDE4;
+  --noir: #0E0E10;
+}
+
+/* Reset minimal */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style général */
+body {
+  font-family: 'Cormorant', serif;
+  background-color: var(--creme);
+  color: var(--bleu-nuit);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accueil {
+  text-align: center;
 }
 
 h1 {
-  color: #A7C7E7; /* bleu brume */
-  text-align: center;
-  margin-top: 50px;
+  font-size: 3rem;
+  color: var(--bleu-brume);
+  margin-bottom: 1rem;
 }
 
 p {
-  text-align: center;
-  font-size: 18px;
-  color: #1B3A2F; /* vert sapin */
+  font-size: 1.5rem;
+  color: var(--vert-sapin);
 }
