@@ -1,0 +1,19 @@
+body {
+  font-family: 'Cormorant', serif;
+  background-color: #F3EDE4; /* beige crème */
+  color: #0F172A; /* bleu nuit */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #A7C7E7; /* bleu brume */
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #1B3A2F; /* vert sapin */
+}
